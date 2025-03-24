@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh; 
+    margin: 0;
+    background-color: #ffffff; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    padding: 5px;
+}
+
+.image {
+    max-width: 60%; 
+    height: auto; 
+    border-radius: 7px; 
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
