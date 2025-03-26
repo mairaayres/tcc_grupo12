@@ -57,6 +57,10 @@ const Login = () => {
             <ErrorMessage component="span" name="password" className="form-error" />
           </div>
 
+          <div className='signup-link'>
+            <p>Esqueceu a <Link to="/ForgotPassword">senha?</Link></p>
+          </div>
+
           <button className="button" type="submit">Login</button>
 
           <div className='signup-link'>
